@@ -1,0 +1,471 @@
+Number of used processors (NPROC): 4.
+Mesh generation started:	19.9.2021	12:41:38
+Current CPU = 0 sec
+/-----------------------------------------------------------/
+Geometries initialization:
+
+Geometry database loading ...OK
+Number of geometries: 1
+Geometry(0):
+	Fluid..
+	1 Body.
+	1 Real body.
+	Tolerance=0.00517929.
+	26 Face(s).
+		26 of b-spline type.
+	804 Triangle(s).
+	21 Plane surface(s).
+	5 Cylinder surface(s).
+	64 Edge(s).
+		64 of b-spline type.
+	Preparing structures for Triangles:
+		Hash size: {30, 30, 32}.
+		Mesh size: {30, 30, 32}.
+		Hashing triangles...Ok.
+		Making triangles connectivity...Ok. (0.000 s).
+		Neighbour triangles: 100.00 % (good connect) - 0.00 % (bad connect). Min: 3. Max: 3.
+		Done.
+	26 Reference Face(s).
+	804 Reference Triangles.
+	Preparing structures for Reference Triangles:
+		Hashing triangles...Ok.
+		Making triangles connectivity...Ok. (0.000 s).
+		Neighbour triangles: Min: 1. Max: 3.
+		Done.
+Last Geometry:
+	Solid.
+/-----------------------------------------------------------/
+
+Current CPU = 0 sec
+Flow Simulation 2013  x64 / 2339 / MESHER ver. efd_12_1.2322_05.02.2013 
+
+Project: G:\Work\CAD\Solidworks\3D\1\1.xmlconfig
+Computer name:	DIPAN46
+Operating system:	 (Build 9200)
+
+SolidWorks 2013 SP3.0
+
+/***************Mesh info************************/
+Mesh dimensions:
+				I[0 ]=30
+				I[1 ]=30
+				I[2 ]=32
+Solver refinement level	I[47]=0
+
+Optimize thin walls resolution   On
+Thin walls parcon                On
+
+Comp. domain size:
+				a[0  ]=-216.807
+				a[1  ]=216.807
+				a[2  ]=-183.807
+				a[3  ]=223.807
+				a[4  ]=-205.307
+				a[5  ]=205.307
+Wall thickness		a[231]=0
+Gap size			a[232]=1
+1. Initial memory allocation.
+3. Base mesh generation.
+Hashing geometries triangles
+	Triangles num=396
+	Triangles box={-37.5  ,37.5  ,-4.5  ,44.5  ,-26  ,26  }
+		3d-hash size is 123712 bytes
+		Making triangles connectivity...Ok. (0.016 s).
+		Neighbour triangles: 100.00 % (good connect) - 0.00 % (bad connect). Min: 3. Max: 3.
+Hashing peculiar surfaces triangles
+Base mesh info------------------
+	2D flag  =0
+	Period   =[0, 0, 0]
+	Nx=30
+		x[0]=-216.807
+		x[1]=-197.054
+		x[2]=-178.327
+		x[3]=-160.565
+		x[4]=-143.719
+		x[5]=-127.743
+		x[6]=-112.59
+		x[7]=-98.2189
+		x[8]=-84.5891
+		x[9]=-71.6623
+		x[10]=-59.4022
+		x[11]=-47.7745
+		x[12]=-36.7465
+		x[13]=-25.7184
+		x[14]=-13.5101
+		x[15]=0.00424432
+		x[16]=13.5182
+		x[17]=25.7257
+		x[18]=36.7535
+		x[19]=47.7816
+		x[20]=59.4097
+		x[21]=71.6702
+		x[22]=84.5974
+		x[23]=98.2277
+		x[24]=112.599
+		x[25]=127.752
+		x[26]=143.73
+		x[27]=160.576
+		x[28]=178.338
+		x[29]=197.066
+		x[30]=216.807
+	Ny=30
+		y[0]=-183.807
+		y[1]=-164.99
+		y[2]=-147.181
+		y[3]=-130.32
+		y[4]=-114.358
+		y[5]=-99.2466
+		y[6]=-84.94
+		y[7]=-71.3957
+		y[8]=-58.573
+		y[9]=-46.4334
+		y[10]=-34.9406
+		y[11]=-24.0601
+		y[12]=-13.7593
+		y[13]=-4.00735
+		y[14]=5.74479
+		y[15]=20.0039
+		y[16]=34.2617
+		y[17]=44.0126
+		y[18]=53.7648
+		y[19]=64.0659
+		y[20]=74.9467
+		y[21]=86.4398
+		y[22]=98.5797
+		y[23]=111.403
+		y[24]=124.948
+		y[25]=139.255
+		y[26]=154.367
+		y[27]=170.329
+		y[28]=187.19
+		y[29]=205
+		y[30]=223.807
+	Nz=32
+		z[0]=-205.307
+		z[1]=-187.421
+		z[2]=-170.328
+		z[3]=-153.991
+		z[4]=-138.375
+		z[5]=-123.449
+		z[6]=-109.182
+		z[7]=-95.5445
+		z[8]=-82.5096
+		z[9]=-70.0503
+		z[10]=-58.1412
+		z[11]=-46.7581
+		z[12]=-35.8776
+		z[13]=-25.4776
+		z[14]=-15.0775
+		z[15]=-6.71805
+		z[16]=0.00154689
+		z[17]=6.72152
+		z[18]=15.0818
+		z[19]=25.4824
+		z[20]=35.8825
+		z[21]=46.7632
+		z[22]=58.1466
+		z[23]=70.0559
+		z[24]=82.5154
+		z[25]=95.5506
+		z[26]=109.188
+		z[27]=123.456
+		z[28]=138.382
+		z[29]=153.998
+		z[30]=170.336
+		z[31]=187.429
+		z[32]=205.307
+End of base mesh info---------
+Input_mesh_settings--------------------------------
+Settings 0----------------
+	Scope: GLOBAL
+	Type:	------MESHER_SETTINGS----------
+	RefAllCells           =0
+	RefFluidCells         =0
+	RefPartCells          =0
+	RefSolidCells         =0
+	l_SSFR(Capture crit)  =1
+	l_curv(Curvature crit)=0
+	l_tol(Tolerance crit) =0
+	UseChannelRef         =1
+	  l_NCR               =1
+	  N_gap               =5
+	  Use d_NCR_min       =0
+	  Use d_NCR_max       =0
+	--END_OF_MESHER_SETTINGS-------
+End of input mesh settings-------------------------
+/--------Building geometries-------------------------/
+Building geometry Fluid.0.(0)...
+	Collecting ray's...OK
+	Refining by triangulation...OK
+		Refining by triangulation takes 0.016 s
+	Refining peculiar surfaces...OK
+		0 surfaces refined
+		Refining peculiar surfaces takes 0 s
+	Capturing...OK
+	Refining...OK
+	Capturing...OK
+	Base mesh 1 Refining...OK
+Building geometry takes 0.125 s
+Refining channels...
+	RefineChannels                function_total                0      = 0.0933348 sec
+	RefineChannels                function_total                1      = 0 sec
+	RefineChannels                function_total                2      = 0 sec
+	RefineChannels                function_total                3      = 0 sec
+	RefineChannels                NCR_RefineFacadeCells         0      = 0.0691883 sec
+	RefineChannels                NCR_RefineFacadeCells         1      = 0 sec
+	RefineChannels                NCR_RefineFacadeCells         2      = 0 sec
+	RefineChannels                NCR_RefineFacadeCells         3      = 0 sec
+	RefineChannels                NCR_RefineLifeCells           0      = 0.0241231 sec
+	RefineChannels                NCR_RefineLifeCells           1      = 0 sec
+	RefineChannels                NCR_RefineLifeCells           2      = 0 sec
+	RefineChannels                NCR_RefineLifeCells           3      = 0 sec
+Refine fluid channels takes		 0.094 s
+OK
+Geometry Fluid.0.
+Total		29808
+Partial	648
+Fluid		28880
+Solid		280
+Bad		0
+
+/-Ray Intersection---------------/ Time	0.000 s
+Calls			3338
+CorrectRay Calls	0
+	0.000 s - time_Ray_Intersection
+		0.000 s - time_RunIntersection1
+				0.000 s - time_RayHitsTriangle1
+				0.000 s - time_SpecialCase
+				0.000 s - time_GoAlongSurface1
+					0.000 s - time_Go1_ReverseEvaluate2
+						0.000 s - time_GoAlongSurface_RevEvalVertex
+						0.000 s - time_GoAlongSurface_RevEvalVertices
+					0.000 s - time_Go1_NewtonMethod
+					0.000 s - time_Go1_IsUVonFace
+					0.000 s - time_Go1_AddPoint
+		0.000 s - time_IsBadList
+		0.000 s - time_RunIntersection2
+				0.000 s - time_RunSimpleIntersection
+					0.000 s - time_GetParams
+					0.000 s - time_SimpleIntersection
+					0.000 s - time_SimpleAddPoints
+						0.000 s - time_SimpleFindTrianglesCount
+						0.000 s - time_SimpleIsPointOn
+						0.000 s - time_SimpleEval
+						0.000 s - time_SimpleFindNearPoint
+				0.000 s - time_RayHitsTriangle2
+				0.000 s - time_IsTriangleNearRay
+				0.000 s - time_ReverseEvaluateUV2
+				0.000 s - time_GoAlongSurface2
+				0.000 s - time_GetFaceBox
+				0.000 s - time_IsPointOnFaceGetClosestPointOn
+		0.000 s - time_FillList
+	0.000 s - time_CorrectRayIntersection
+
+
+Building geometries takes 0.25 s
+/----------------------------------------------------/
+/---------PostBuilding geometries--------------------/
+PostBuilding geometries takes 0 s
+/----------------------------------------------------/
+Defect ray count	0
+mark_bricks_near_vol_refd takes		 0.016 s
+
+/-----------------------------------------------------------/
+OPTIMIZATION OF MESHER MEMORY:
+
+	Process memory usage:                 17.563 MB
+	Geometries number:                    1
+	Bit version:                          x64.
+	Optimization:                         off.
+/-----------------------------------------------------------/
+
+/-----------------------------------------------------------/
+MSH (Real Geometry) format constructor:
+	0.157 s - time_Run
+		0.000 s - time_ConstructPoints
+			0.000 s - time_ConstructPointsAddFind2
+		0.000 s - time_ConstructPointsAndConnectsFromNb
+		0.000 s - time_AddRibConnects
+		0.000 s - time_ConstructBrickFacets
+			0.000 s - time_CalculateQpoints
+				0.000 s - time_AddFacetPoint_GetFacesQpoint
+					0.000 s - time_GetFacesQpoint_UShaped
+						0.000 s - time_GetFacesQpoint2
+					0.000 s - time_GetFacesQpoint_AddEdgesToList
+					0.000 s - time_Edge_GetClosestPointOn
+					0.000 s - time_Edge_NewtonMethod
+					0.000 s - time_GetFacesQpoint_ManyFinds
+				0.000 s - time_AddFacetPoint_AddQPoint
+					0.000 s - time_PointReverseEvaluate
+				0.000 s - time_AddFacetPoint_AddFind2
+		0.000 s - time_RemoveOddConnects
+		0.000 s - time_TestConnectivity
+		0.000 s - time_ValidateXeps
+		0.000 s - time_ConstructFaceAs
+		0.000 s - time_ConstructCvs
+		0.000 s - time_ConstructFaceWs
+		0.016 s - time_RealGeomAddQPoints
+		0.000 s - time_RealGeomAddNewFaces
+		0.000 s - time_RealGeomInitOppositeGeomFaceInd
+		0.000 s - time_RealGeomApproxCurveFaces
+		0.000 s - time_Enum1
+		0.000 s - time_Enum2
+		0.000 s - time_RealGeomCheckInvalidConnects
+		0.093 s - time_RealGeomParameters
+			0.093 s - time_CalculateParametersOfCv
+			0.000 s - time_CalculateParametersOfFace
+				0.000 s - time_CalculateRR
+				0.000 s - time_CalculateRefFaceData
+				0.000 s - time_CalculateLambdaProjection
+			0.000 s - time_SetFacesOrientation
+Result:
+	Bricks number:                        29808
+
+	Memory usage:                         0.572 MB
+	Memory usage (per brick):             0.020 KB
+	Construction time:                    0.188 s
+
+	Topology features:
+	------------------
+	- Successfully captured bricks        100.00 % (29808)
+	- Normally captured bricks              0.00 % (0)
+	- Badly captured bricks                 0.00 % (0)
+	- Ribs corrected bricks                 0.00 % (0)
+	- Points with geom-info (bricks)        0.00 % (0)
+	- Points with closest-info (bricks)     0.00 % (0)
+	- Triangulated by center (bricks)       0.00 % (0)
+	- Facet w-faces mergings (bricks)       0.00 % (0)
+	- To refine (bricks)                    0.00 % (0)
+
+/-----------------------------------------------------------/
+/-----------------------------------------------------------/
+MSH --> BCF format (Iteration 0):
+	BCF cleaner...
+	BCF collector...
+	BCF creator...
+	NB-faces collector...
+	NB-faces conservator...
+		Total occurances         0
+		For bb-faces             0
+	Ref-faces data conservator...
+	Defect cv detector...
+		Defect cv (total)        0
+		Defect cv (no a-faces)   0
+		Defect cv (zero volume)  0
+		Defect cv (disbalance)   0
+	Defect subdomain detector...
+		1 subdomain(s) of gi=0 (real bodies = 1).
+		0 defect subdomain(s) of gi=0.
+			subdomain 0: number of cv=29528 gi=0 
+	Optimize fw number...
+		Before optimization      6684
+		        fs               1044
+		        ff               0
+		        ss               0
+		After optimization       6684
+/-----------------------------------------------------------/
+
+/-----------------------------------------------------------/
+BCF CHECKSUM DATA:
+
+FACE_A Area Sum:   G.Fluid        15498797.8184250570000000
+FACE_A Area Sum:   G.Solid        51237.7332081059070000
+FACE_W Area Sum:                  1065889.9396882073000000
+FACE_W Nb   Sum:                  26676
+FACE_W min curvatures sum:        -8.23297063
+FACE_W max curvatures sum:        10.78393936
+AV Max Disbalance: G.Fluid        4.5138e-015 (cid=15474, avid=15270)
+AV Max Disbalance: G.Solid        3.45509e-015 (cid=15426, avid=30099)
+BRICK-AV Volume Disbalance:       8.29557e-016 (cid=18596)
+/-----------------------------------------------------------/
+
+
+/-----------------------------------------------------------/
+MESHER TOPOLOGY DATA:
+
+BRICKS: Total                 29808
+BRICKS: 1-CV                  29160
+BRICKS: 2-CV                  648
+BRICKS: Bad                   0
+
+AV:     G.Total               30456
+AV:     G.Fluid               29528
+AV:     G.Solid               928
+
+AV:     G.Fluid Thin Profile    0.00 % (0)
+AV:     G.Solid Thin Profile    0.00 % (0)
+
+AV:     G.Fluid Thin For Mega   0.00 % (0)
+AV:     G.Solid Thin For Mega   0.00 % (0)
+
+AV:     G.Fluid Non-Convex      0.64 % (189)
+AV:     G.Solid Non-Convex     13.79 % (128)
+
+FACE_A: G.Fluid          (af) 85686 (partially opened 1333)
+FACE_A: G.Solid          (as) 2566 (partially opened 1330)
+
+FACE_W: G.Total                 6684        Brick/Bound
+FACE_W: G.Fluid/Solid    (fs_g) 1044        0           
+FACE_W: G.Fluid/Fluid    (ff_g) 0           0           
+FACE_W: G.Solid/Solid    (ss_g) 0           0           
+FACE_W: G.Fluid/External (fe_g) 5640
+FACE_W: G.Solid/External (se_g) 0
+
+AV max fa count:                12
+AV max fw count:                5
+AV max fw poly count:           5
+
+MEMORY: Total                   7.935 MB
+MEMORY: Per Brick               0.273 KB
+/-----------------------------------------------------------/
+
+/-----------------------------------------------------------/
+I[7]=0
+MEGA-CV technology in fluid is switched on.
+/-----------------------------------------------------------/
+Mega-cv constructor for fluid...
+	 0 av's is treated as thin
+Relative size generator (threshold = 0.05)...OK
+	 20 mega-cv's generated
+	 8 mega-cv's removed
+Convert clusters:
+	 12 mega-cv's total
+/-----------------------------------------------------------/
+/-----------------------------------------------------------/
+Mega-cv constructor for solid...
+/-----------------------------------------------------------/
+Current CPU = 0 sec
+NC_Total = 29808, NC_Ingas = 28880, NC_Inbod = 280, NC_Part+NC_Unres = 648 / NC_Unres = 0
+
+Nx=30
+Ny=30
+Nz=32
+Max_RL=1
+12. Saving initial mesh in: G:\Work\CAD\Solidworks\3D\1\1.fld .
+Storing results...
+Estimated CPT size=2.943 MB.
+	write_x_stack_list4()...OK
+OK
+Cleaning memory... OK
+Copying... OK
+CPU report:
+	Function                      descriptor                    nproc     CPU
+	==================================================================================
+	CMesh::Build                  function_total                0      = 0.242019 sec
+	CMesh::BuildGeometry          function_total                0      = 0.218718 sec
+	ActivateAllCellsParameters    function_total                0      = 0.006203 sec
+	RefineByTriangles             function_total                0      = 0.0070284 sec
+	RefinePeculiarSurfaces        function_total                0      = 1.4e-006 sec
+	CaptureRefined                function_total                0      = 0.0874989 sec
+	Refine                        function_total                0      = 0.0040529 sec
+	RefineBase1                   function_total                0      = 0.0011188 sec
+	ChannelsResolution            function_total                0      = 0.0995702 sec
+	RefineChannels                function_total                0      = 0.189109 sec
+	RefineChannels                NCR_RefineFacadeCells         0      = 0.0691883 sec
+	RefineChannels                NCR_RefineLifeCells           0      = 0.0241231 sec
+	CTPBuilder::build_bcf         function_total                0      = 0.420177 sec
+	CTPBuilder::bcf_builder       function_total                0      = 0.400817 sec
+	==================================================================================
+Mesh generation normally finished at	19.9.2021	12:41:39
+Mesher CPU = 1 sec
+Mesher is finished at	19.9.2021	12:41:39
